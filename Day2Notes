@@ -1,0 +1,9 @@
+
+Only needed codeless ETL: DataFactory
+
+Small data science, data engineering, data analytical activities with data lake: Data bricks
+
+Both of the above + MULTIPLE USE CASES/DEPARTMENTS > where cost of individual creation is too high-> go with Synapse!
+
+Synapse = everything Data Factory + Data bricks + data lake + sql data warehouse + monitoring + security! 
+
