@@ -1,0 +1,60 @@
+
+
+Identity is of 2 types:
+1. User Principal- email IDs
+2. Service Principals- server to server communication!
+
+Outlook-> Service Principal
+
+Identity-> Authentication 
+
+Identity + Auth = Active Directory 
+
+B2B directory= either YOUR ORG or every Active Directory can log in 
+
+B2C directory = personal accounts (MS,Gmail, Yahoo…), Facebook, Twitter, Lin….
+
+Inside B2B/B2C-> we create APPLICATIONS
+
+These application authorise users on our behalf!
+
+Identity -> Authentication -> Authorization 
+user_principal
+Or
+Service principal
+
+
+Authorization= Application
+
+scopey
+accesskey
+
+
+
+sum(all)
+
+OLTP (VM with C++/SQL…)
+M1-> 1,2 = 3 					3+3 = 6
+M2-> 3 = 3
+
+OLAP (Spark,TF….)
+M1-> 1,2.    =3
+M2->2,3			= 5.        1+2+3 = 12
+M3-> 3,1		= 4
+
+Map——Reducing-> MapReduce,
+				MapCombine 
+
+Why flatten in Spark/SQL pools?
+
+{ people: [ p1:{
+name: ‘Pikachu’,
+hobbies: { active: [ gardening], passive:[reading, sleeping]}
+}
+P2: { name: ‘ Shaktiman’}
+}
+
+Def myflat(data):
+		//new schema
+		-> person, name, active_garden, passive_read, passive_sleep
+		returns flat_data
